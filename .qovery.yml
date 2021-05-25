@@ -1,0 +1,15 @@
+---
+application:
+  name: "carclinic"
+  project: "carclinic"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "data_base"
+  version: "8.0"
+routers:
+- name: "main-carclinic"
+  routes:
+  - application_name: "carclinic"
+    paths:
+    - "/*"
